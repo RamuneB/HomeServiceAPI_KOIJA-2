@@ -1,19 +1,5 @@
 # Node.js priklausomybės
 node_modules/
-package-lock.json
-
-# Vite build katalogas
-dist/
-
-# IDE failai
-.vscode/
-.idea/
-
-# Sisteminiai failai
-.DS_Store
-Thumbs.db
-
-# Logai
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -21,21 +7,40 @@ yarn-error.log*
 # Aplinkos kintamieji
 .env
 .env.local
-.env.*.local
+.env.development
+.env.test
+.env.production
 
-# Temp failai
-*.tmp
-*.temp
+# Sistemos failai
+.DS_Store
+Thumbs.db
 
-# Git failų konfliktai
-*.orig
-
-# Testavimo ir laikinų failų katalogai
-coverage/
+# Log failai
 *.log
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
 
-# ESBuild cache (naudojama Vite)
-.esbuild/
+# Kodo kompiliavimo failai
+dist/
+build/
 
-# MacOS failai
-._*
+# IDE failai
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Git išskirtiniai failai
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~undo-tree~
+
+# Testavimo failai
+coverage/
+*.lcov
+nyc_output/
