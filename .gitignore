@@ -1,0 +1,41 @@
+# Node.js priklausomybės
+node_modules/
+package-lock.json
+
+# Vite build katalogas
+dist/
+
+# IDE failai
+.vscode/
+.idea/
+
+# Sisteminiai failai
+.DS_Store
+Thumbs.db
+
+# Logai
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Aplinkos kintamieji
+.env
+.env.local
+.env.*.local
+
+# Temp failai
+*.tmp
+*.temp
+
+# Git failų konfliktai
+*.orig
+
+# Testavimo ir laikinų failų katalogai
+coverage/
+*.log
+
+# ESBuild cache (naudojama Vite)
+.esbuild/
+
+# MacOS failai
+._*
